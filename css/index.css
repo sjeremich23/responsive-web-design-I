@@ -92,10 +92,10 @@ button {
 
 /******************** TOP CONTENT ********************/
 
-div .text-content {
+.text-content {
     display: flex;
     flex-direction: column;
-    margin: 0% 2%;
+    margin: 2% 2%;
 }
 
 .main-content .top-content {
@@ -152,7 +152,6 @@ button:hover {
 .bottom-content {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid black;
 }
 
 hr {
@@ -166,6 +165,8 @@ hr {
 /******************** CONTACT ********************/
 #contact {
     margin-top: 5%;
+    padding-top: 5%;
+    border-top: 1px solid black;
 }
 
 #contact p {
@@ -197,10 +198,6 @@ footer {
         justify-content: space-evenly;
         padding: 5% 0;
         width: 100%;
-    }
-
-    div .text-content {
-        margin: 0;
     }
 
     .banner {
